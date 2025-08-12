@@ -4,12 +4,12 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # --- Load environment variables ---
 TELEGRAM_TOKEN = os.getenv(AAGI0HT10oY01GU5Whta0DFas0KhxqJkfXA)
-MAIN_CHANNEL_LINK = os.getenv(https://t.me/+FJ7om5uViodlMzYx)
-CHAT_GROUP_LINK = os.getenv(https://t.me/+qG6umznWBlZhNDcx)
+MAIN_CHANNEL_LINK = os.getenv(t.me/+FJ7om5uViodlMzYx)
+CHAT_GROUP_LINK = os.getenv(t.me/+qG6umznWBlZhNDcx)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_text = (
-        "🍌 *Welcome to Shark Chat Channel!* 🍌\n\n"
+        "🍌 *Welcome to Minion Books Gateway!* 🍌\n\n"
         "Join our main channel and our chat group to not miss restocks!.\n\n"
         "Click below to join!"
     )
