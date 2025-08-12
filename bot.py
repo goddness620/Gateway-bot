@@ -3,7 +3,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # --- Load environment variables ---
-TELEGRAM_TOKEN = os.getenv("8436242083:AAGI0HT10oY01GU5Whta0DFas0KhxqJkfXA")
+TELEGRAM_TOKEN = os.getenv("8436242083:AAELCPxgeP6e3GVcpjCuLRKHvsLgtz4HEJw")
 MAIN_CHANNEL_LINK = os.getenv("t.me/+FJ7om5uViodlMzYx")
 CHAT_GROUP_LINK = os.getenv("t.me/+qG6umznWBlZhNDcx")
 
