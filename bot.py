@@ -3,9 +3,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # --- Load environment variables ---
-TELEGRAM_TOKEN = os.getenv(AAGI0HT10oY01GU5Whta0DFas0KhxqJkfXA)
-MAIN_CHANNEL_LINK = os.getenv(t.me/+FJ7om5uViodlMzYx)
-CHAT_GROUP_LINK = os.getenv(t.me/+qG6umznWBlZhNDcx)
+TELEGRAM_TOKEN = os.getenv("8436242083:AAGI0HT10oY01GU5Whta0DFas0KhxqJkfXA")
+MAIN_CHANNEL_LINK = os.getenv("t.me/+FJ7om5uViodlMzYx")
+CHAT_GROUP_LINK = os.getenv("t.me/+qG6umznWBlZhNDcx")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome_text = (
